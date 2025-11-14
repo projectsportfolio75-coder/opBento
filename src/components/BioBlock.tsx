@@ -1,6 +1,6 @@
 import { Linkedin, Globe, Save, Zap, FileQuestion } from "lucide-react";
 import Block from "./ui/Block";
-import homeimg from "@/home.png";
+import homeimg from "@/openBento.png";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { useState } from "react";
@@ -78,14 +78,14 @@ export default function BioBlock({
         </Block>
       </div>
       <Block className="col-span-12 p-0 md:col-span-6 grid-rows-1 overflow-hidden h-full relative bg-transparent">
-        {/* <Image
+        <Image
           src={homeimg}
           placeholder="blur"
           width={450}
           height={400}
           alt="grid"
           className="mx-auto w-full relative hover:saturate-150 transition-all hover:scale-105 duration-500 h-full object-cover rounded-xl"
-        /> */}
+        />
       </Block>
       <div className="col-span-12 sm:col-span-6 grid-rows-4 md:col-span-3 space-y-4">
         <Block className="bg-gradient-to-br from-green-500 to-cyan-500 h-[230px]">
