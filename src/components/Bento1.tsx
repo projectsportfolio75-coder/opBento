@@ -227,7 +227,7 @@ const BentoGrid = ({
         </div>
 
         <a
-          href={"https://www.linkedin.com/in/" + linkedinURL}
+          href={"https://www.linkedin.com/"}
           className="bg-gradient-to-tl from-black to-blue-600 p-4 relative rounded-lg overflow-hidden col-span-1 columns-3 row-span-1 min-h-[150px]"
         >
           <Linkedin
