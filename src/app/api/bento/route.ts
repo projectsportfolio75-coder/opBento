@@ -377,10 +377,10 @@ ${contributionStats.longestStreakStartDate} - ${contributionStats.longestStreakE
     const screenshot = await page.screenshot({ type: "png" });
     await browser.close();
 
-    const blob = new Blob([screenshot], { type: "image/png" });
+    //const blob = new Blob([screenshot], { type: "image/png" });
     const storageRef = ref(storage, `opbento/${g}${uniqueId}.png`);
 
-    await uploadBytes(storageRef, blob, { cacheControl: "public, max-age=60" });
+    await uploadBytes(storageRef, screenshot, { cacheControl: "public, max-age=60" });
     const downloadUrl = await getDownloadURL(storageRef);
     const url = new URL(downloadUrl);
     url.searchParams.delete("token");
