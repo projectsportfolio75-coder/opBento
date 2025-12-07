@@ -1,4 +1,4 @@
-# 🧊 OP Bento 
+#  OP Bento 
 ## Transform Your GitHub Profile with a Stunning Bento Grid
 
 
